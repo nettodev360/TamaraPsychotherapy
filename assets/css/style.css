@@ -97,6 +97,12 @@
     }
 }
 
+#values {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
 .btn {
     background-color: #A9E99B;
     color: black;
@@ -105,7 +111,7 @@
     border-radius: 20px;
     margin-left: 400px;
     margin-right: 400px;
-    /* margin-top: 20px; */
+    margin-top: 20px;
     padding-top: 20px;
     display: flex;
     justify-content: center;
@@ -115,13 +121,23 @@
     color: white;
 }
 
-.jumbotron {
+@media all and (max-width: 480px) {
+    .btn {
+        /* flex-direction: column;
+        position: absolute; */
+        display: flex;
+        justify-content: center;
+        margin-left: 200px;
+    }
+}
+
+/* .jumbotron {
     /* background-image: url('https://source.unsplash.com/1600x900/?landscape'); */
-    background-color: #BBEFA9;
+    /* background-color: #BBEFA9;
     font-size: 25px;
     margin-left: 20px;
     margin-right: 20px;
-}
+} */ 
 
 p, h1{
     margin: 0;
@@ -137,10 +153,12 @@ p, h1{
     width: 100%;
     text-align: center;
     padding-top: 10px;
+
 }
 
 .footer-list .footer-list-items {
     display: inline-block;
     padding: 20px 10px;
+
 }
 
