@@ -1,0 +1,144 @@
+* {
+    font-family: 'Dancing Script', cursive;
+    background-color: #96d289;
+    font-size: 25px;
+}
+
+.navbar {
+    background-color: #96d289;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Sono', sans-serif;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.navbar a:hover {
+    color: #DBFDD8;
+}
+
+.icon {
+    height: 200px;
+    border-radius: 200px;
+}
+
+.nav-list {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+}
+
+.nav-list .list-items {
+    display: inline-block;
+    padding: 20px 10px;
+    color: black;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-lines {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin-top: 4px;
+}
+
+@media all and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .navbar .container-icon {
+        width: 100%;
+    }
+
+    .menu {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+
+    .nav-list {
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        display: none;
+    }
+
+    .nav-list .list-items {
+        display: block;
+        border-top: 10px solid black;
+    }
+
+    .icon {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .active {
+        display: block;
+    }
+}
+
+.btn {
+    background-color: #A9E99B;
+    color: black;
+    height: 40px;
+    border-style:none;
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover {
+    color: white;
+}
+
+@media all and (max-width: 600px) {
+    .btn {
+        /* flex-direction: column;
+        position: absolute; */
+        display: flex;
+        justify-content: center;
+        margin-left: 200px;
+    }
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-list {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.footer-list .footer-list-items {
+    display: inline-block;
+    padding: 20px 10px;
+
+}
