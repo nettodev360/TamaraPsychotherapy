@@ -110,31 +110,33 @@
 
 .img {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .profile {
     max-width: 300px;
     border-radius: 200px;
     border-color: #96d289;
+    display: flex;
+    justify-content: center;
 }
 
 .container-fluid {
-    margin-left: 380px;
-    margin-right: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 10px;
     padding: 0;
 }
 
-.bio {
+/* .bio {
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
-    margin-left: 350px;
+    margin-left: 350px; */
 }
 
 .footer {
