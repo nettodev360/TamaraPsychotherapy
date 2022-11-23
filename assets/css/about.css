@@ -156,3 +156,31 @@
     padding: 20px 10px;
 
 }
+
+.btn {
+    background-color: #A9E99B;
+    color: black;
+    height: 40px;
+    border-style:none;
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover {
+    color: white;
+}
+
+@media all and (max-width: 600px) {
+    .btn {
+        /* flex-direction: column;
+        position: absolute; */
+        display: flex;
+        justify-content: center;
+        margin-left: 200px;
+    }
+}

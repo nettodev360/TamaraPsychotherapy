@@ -38,6 +38,7 @@
     text-align: center;
     padding-top: 10px;
     color: black;
+    text-decoration: none;
 }
 
 .nav-list .list-items {
@@ -45,6 +46,10 @@
     padding: 20px 10px;
     color: black;
 }
+
+.nav-list a .list-items:link {
+    text-decoration: none;
+  }
 
 .menu {
     display: none;
