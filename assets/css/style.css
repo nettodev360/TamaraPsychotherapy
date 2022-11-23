@@ -57,7 +57,7 @@
     margin-top: 4px;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 600px) {
     .navbar {
         flex-direction: column;
         position: relative;
@@ -121,7 +121,7 @@
     color: white;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 600px) {
     .btn {
         /* flex-direction: column;
         position: absolute; */
