@@ -1,11 +1,11 @@
 * {
     font-family: 'Dancing Script', cursive;
-    background-color: #96d289;
+    background-color: #CDB4DB;
     font-size: 25px;
 }
 
 .navbar {
-    background-color: #96d289;
+    background-color: #CDB4DB;
     color: black;
     display: flex;
     justify-content: space-around;

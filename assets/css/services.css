@@ -1,12 +1,12 @@
 * {
     font-family: 'Montserrat', sans-serif;
-    background-color: #96d289;
+    background-color: #CDB4DB;
     font-size: 20px;
 }
 
 
 .navbar {
-    background-color: #96d289;
+    background-color: #CDB4DB;
     color: black;
     display: flex;
     justify-content: space-around;
