@@ -155,6 +155,7 @@ p, h1{
 
 .footer {
     display: flex;
+    text-decoration: solid;
 }
 
 .footer-list {
