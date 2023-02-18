@@ -3,6 +3,7 @@
     background-color: #CDB4DB;
     color: #1D032F;
     font-size: 25px;
+    /* background: linear-gradient(black, white); */
 }
 
 .navbar {
@@ -140,6 +141,10 @@
     margin-top: 30px;
 }
 
+/* body {
+    background: linear-gradient(black, white);
+} */
+
 /* .jumbotron {
     /* background-image: url('https://source.unsplash.com/1600x900/?landscape'); */
     /* background-color: #BBEFA9;
@@ -172,3 +177,7 @@ p, h1{
 
 }
 
+/* #copyright {
+    display: flex;
+    align-items: center;
+} */
